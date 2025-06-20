@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transporte e Logistica | Rotas Brasil</title>
+    <meta name="description" content="Paraná Transportes" />
+    <link rel="stylesheet" href="inicial.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            $('.slick-carousel').slick({
+                autoplay: true,
+                dots: true,
+                arrows: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="imagens/logo.png" class="logo">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a class="active" href="#incio">Início</a></li>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#frota">Frota Própria</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="#solicitar-cotacao">Solicitar Cotação</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#trabalhe-conosco">Trabalhe Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="slick-carousel">
+        <div><img src="https://picsum.photos/id/1/800" alt=""></div>
+        <div><img src="https://picsum.photos/id/2/800" alt=""></div>
+        <div><img src="https://picsum.photos/id/3/800" alt=""></div>
+    </div>
+    <main>
+
+        <section class="imagem-inicial">
+            <img src="imagens/caminhao.jpg" alt="imagem da pagina inicial">
+        </section>
+        <div class="container">
+            <h1 id="solicitar-cotacao">Solicite uma Cotação</h1>
+            <form>
+                <fieldset>
+                    <label for="produto">Produto</label>
+                    <input type="text" id="produto" name="produto" placeholder="Coloque o Produto desejado" required>
+                    <label for="cidade">Cidade De Origem</label>
+                    <input type="text" id="cidade1" name="cidade1" placeholder="Digite sua Cidade de Origem" required>
+                    <label for="cidade">Cidade De Destino</label>
+                    <input type="text" id="cidade2" name="cidade2" placeholder="Digite sua Cidade de Destino">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Digite seu Email">
+                    <label for="observação">Observação</label>
+                    <input type="text" id="observação" name="observação"
+                        placeholder="Digite sua observação (caso necessário!)">
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <section id="quem-somos">
+            <h2>Quem Somos</h2>
+            <p>Somos uma empresa dedicada ao transporte e logística, oferecendo soluções personalizadas para atender às necessidades de nossos clientes.</p>
+        </section>
+
+        <section id="frota">
+            <h2>Frota Própria</h2>
+            <p>Contamos com uma frota moderna e diversificada, garantindo eficiência e segurança no transporte de cargas.</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Com anos de experiência no mercado, nossa missão é proporcionar serviços de transporte com qualidade e confiança.</p>
+        </section>
+
+        <section id="clientes">
+            <h2>Clientes</h2>
+            <p>Atendemos uma ampla gama de clientes, desde pequenas empresas até grandes corporações, sempre com excelência.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações sobre nossos serviços.</p>
+        </section>
+
+        <section id="trabalhe-conosco">
+            <h2>Trabalhe Conosco</h2>
+            <p>Faça parte da nossa equipe! Envie seu currículo e venha crescer conosco.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-contato">
+                <h3>CONTATOS</h3>
+                <p>(43) 99978-9109</p>
+                <p>(34) 99722-1100</p>
+                <p>Lidianópolis - PR, 86865-000, Brasil</p>
+            </div>
+            <div class="footer-social">
+                <div class="social-icons">
+                    <a href="#"><img src="imagens/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="imagens/insta-ofc.png" alt="Instagram"></a>
+                </div>
+                <p id="quem-somos">ROTAS BRASIL &copy Direitos Reservados</p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
