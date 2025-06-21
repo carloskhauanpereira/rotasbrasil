@@ -184,3 +184,34 @@ footer {
     width: 28px;
     height: 28px;
 }
+
+.rotas-bloco {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.rotas-bloco h2 {
+    color: #00BF62;
+}
+
+.rotas-bloco strong {
+    color: #00BF62;
+}
+
+.rotas-bloco .botoes-conheça {
+    margin-top: 2rem;
+}
+
+.rotas-bloco .botao {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #00BF62;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-right: 1rem;
+}
