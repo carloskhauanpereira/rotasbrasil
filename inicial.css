@@ -13,15 +13,17 @@ body {
 }
 
 .navbar {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #00BF62;
-    padding: 10px;
+    padding: 10px 20px;
+    z-index: 2;
+    overflow: hidden;
 }
 
 .logo img {
-
     overflow: hidden;
     display: inline-block;
     border-radius: 10px;
@@ -34,7 +36,9 @@ body {
 .menu ul {
     display: flex;
     list-style: none;
-    gap: 25px;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 .menu a {
@@ -80,6 +84,15 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.foto-meio img {
+    overflow: hidden;
+    display: flex;
+    border-radius: 10px;
+    top: 10%;
+    left: 10%;
+    margin-top: 20px;
 }
 
 main {
